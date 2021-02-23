@@ -1,1 +1,8 @@
-Questo progetto conterrà la parte servizi e la parte grafica (GUI) per la gestione e la creazione di dataload complessi, attingendo ai file intermedi creati con l'editor grafico della UOC
+Questo progetto conterrà la parte servizi e la parte grafica (GUI) per la gestione e la creazione di dataload complessi, attingendo ai file intermedi creati con l'editor grafico della UOC.
+
+
+Comandi per il progetto angular
+
+ng serve --port 4200 (per deployare in locale)
+ng build web (builda il progetto da portare sulla macchina di sviluppo)
+	- a seconda della macchina target ricordarsi di cambiare i puntamenti nel file di configurazione

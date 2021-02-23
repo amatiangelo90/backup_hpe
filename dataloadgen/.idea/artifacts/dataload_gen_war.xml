@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dataload-gen:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="dataload-gen.war">
+      <element id="artifact" artifact-name="dataload-gen:war exploded" />
+    </root>
+  </artifact>
+</component>

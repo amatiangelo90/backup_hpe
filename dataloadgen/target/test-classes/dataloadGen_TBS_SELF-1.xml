@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+
+        Dataload Generated Automatically
+
+        Author : AmatiCorp®
+
+        Solution : TBS_SELF
+        Dataload ID : TED_b353ccb3-1659-4dd4-88a5-66df3f955310
+
+        Dataload version : 1
+        Service Activator Version : 8.1
+        Operator : coordass
+        Description : description
+
+        Workflows : []
+
+        Actions : []
+
+        GROUPS DETAILS : #1
+        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - : - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        TBS_SELF : ORDER 0 
+
+         - StateIndexes TBS_SELF : [stal]
+        ## NextGroups called by TBS_SELF : -
+ 
+        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - : - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+        Date : Wed Mar 25 10:58:26 CET 2020
+
+
+--><TD xmlns="http://www.xml.td.hp.com/Model" defaultBundle="HPETD_Bundle">
+    <solution>TBS_SELF</solution>
+    <version>1</version>
+    <groups>
+        <group order="0">
+            <name>TBS_SELF</name>
+            <states>
+                <name>stal</name>
+            </states>
+            <indexes/>
+        </group>
+    </groups>
+    <actions/>
+    <workflowTemplates/>
+    <helpTexts/>
+</TD>

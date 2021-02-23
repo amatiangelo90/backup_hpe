@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	
+	<class name="com.hpe.dataload.generator.orm.model.BlockDiagCodeMappingTEntity" table="BLOCK_DIAG_CODE_MAPPING_T" schema="TD_UDB_OWN">
+		<composite-id mapped="true" class="com.hpe.dataload.generator.orm.model.BlockDiagCodeMappingTEntityPK">
+			<key-property name="blockName">
+				<column name="BLOCK_NAME" sql-type="varchar2(25)" length="25"/>
+			</key-property>
+			<key-property name="exitCode">
+				<column name="EXIT_CODE" sql-type="varchar2(250)" length="250"/>
+			</key-property>
+		</composite-id>
+		<property name="diagnosticCode">
+			<column name="DIAGNOSTIC_CODE" sql-type="varchar2(250)" length="250"/>
+		</property>
+		<property name="diagnosticCodeDesc">
+			<column name="DIAGNOSTIC_CODE_DESC" sql-type="varchar2(250)" length="250"/>
+		</property>
+		<property name="recordInsertDate">
+			<column name="RECORD_INSERT_DATE" sql-type="timestamp(6)"/>
+		</property>
+		<property name="recordUpdateDate">
+			<column name="RECORD_UPDATE_DATE" sql-type="timestamp(6)"/>
+		</property>
+		<property name="contactReason">
+			<column name="CONTACT_REASON" sql-type="varchar2(250)" length="250"/>
+		</property>
+		<property name="contactReasonDetail">
+			<column name="CONTACT_REASON_DETAIL" sql-type="varchar2(250)" length="250"/>
+		</property>
+		<property name="rocName">
+			<column name="ROC_NAME" sql-type="varchar2(250)" length="250"/>
+		</property>
+		<property name="techIssue">
+			<column name="TECH_ISSUE" sql-type="varchar2(250)" length="250"/>
+		</property>
+		<property name="resolution">
+			<column name="RESOLUTION" sql-type="varchar2(250)" length="250"/>
+		</property>
+		<property name="closeReason">
+			<column name="CLOSE_REASON" sql-type="varchar2(250)" length="250"/>
+		</property>
+	</class>
+</hibernate-mapping>

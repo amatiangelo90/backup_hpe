@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workflow SYSTEM "workflow.dtd">
+
+<Workflow Init-On-Startup="false" Unique="false" auditEnabled="true" auditStateChangeEvent="false" autoAuditEnabled="true" disablePersistence="false" statEnabled="true">
+   <Name>TO_REPLACE_WORKFLOW_NAME</Name>
+   <Solution>TO_REPLACE_SOL_NAME</Solution>
+   <Start-Node>GetInput</Start-Node>
+   <Nodes>
+      <Process-Node disablePersistence="true">
+         <Name>GetInput</Name>
+         <Action>
+            <Class-Name>com.hp.ov.activator.mwfm.component.builtin.XMLMapper</Class-Name>
+            <Param name="ignore_missing_tags" value="true"/>
+            <Param name="input" value="/m:msg/m:body/m:Parameters/m:Parameter/m:value"/>
+            <Param name="validate" value="false"/>
+            <Param name="xml_var" value="message_data"/>
+         </Action>
+         <Next-Node>Log Clean Vector</Next-Node>
+      </Process-Node>
+      <Process-Node disablePersistence="true">
+         <Name>Log Clean Vector</Name>
+         <Action>
+            <Class-Name>com.hp.ov.activator.mwfm.component.builtin.Log</Class-Name>
+            <Param name="component_name" value="variable:WORKFLOW_NAME"/>
+            <Param name="log_level" value="INFORMATIVE"/>
+            <Param name="log_message" value="Drive Process to TO_REPLACE_GROUP_NAME Group"/>
+         </Action>
+         <Next-Node>VariableMapper</Next-Node>
+      </Process-Node>
+      <Process-Node disablePersistence="true">
+         <Name>VariableMapper</Name>
+         <Action>
+            <Class-Name>com.hp.ov.activator.mwfm.component.builtin.VariableMapper</Class-Name>
+            <Param name="response_string" value="&lt;Parameters&gt; 	&lt;Parameter&gt; 		&lt;attribute&gt;TO_REPLACE_STATE_VECTOR_VALUE&lt;/attribute&gt; 		&lt;value&gt;TO_REPLACE_GROUP_NAME&lt;/value&gt; 		&lt;type&gt;String&lt;/type&gt; 	&lt;/Parameter&gt; &lt;/Parameters&gt;"/>
+         </Action>
+      </Process-Node>
+   </Nodes>
+   <Case-Packet>
+      <Variable name="ANNOTATION" type="String"/>
+      <Variable name="BREAK_POINT" type="String"/>
+      <Variable name="DEADLOCK" type="Boolean"/>
+      <Variable name="DEFAULT_ROLE" type="String"/>
+      <Variable name="EMPTY_STRING" type="String"/>
+      <Variable name="ETC" type="String"/>
+      <Variable name="EX_STEP_NAME" type="String"/>
+      <Variable name="FILE_URL_PREFIX" type="String"/>
+      <Variable name="HOST_NAME" type="String"/>
+      <Variable name="JOB_ID" type="Integer"/>
+      <Variable name="KILLED" type="Boolean"/>
+      <Variable name="KILL_ROLE" type="String"/>
+      <Variable name="MACRO_OUTPUT" type="Object"/>
+      <Variable name="MASTER_CHILD_JOBS" type="Object"/>
+      <Variable name="MUTEX" type="Boolean"/>
+      <Variable name="NULL" type="Object"/>
+      <Variable name="PRIORITY" type="Integer"/>
+      <Variable name="RESERVATIONS" type="Object"/>
+      <Variable name="RET_TEXT" type="String"/>
+      <Variable name="RET_VALUE" type="Integer"/>
+      <Variable name="RUNTIME" type="Object"/>
+      <Variable name="SCHEDULED_INFO" type="Object"/>
+      <Variable name="SERVICE_ID" type="String"/>
+      <Variable name="SOLUTION_ETC" type="String"/>
+      <Variable name="SOLUTION_NAME" type="String"/>
+      <Variable name="SOLUTION_VAR" type="String"/>
+      <Variable name="SOM_INSTANCE" type="Object"/>
+      <Variable name="SOM_PATH" type="String"/>
+      <Variable name="SOR_ID" type="Integer"/>
+      <Variable name="START_ROLE" type="String"/>
+      <Variable name="START_TIME" type="Integer"/>
+      <Variable name="STATUS" type="String"/>
+      <Variable name="STEP_NAME" type="String"/>
+      <Variable name="SUBSTEP" type="String"/>
+      <Variable name="THROW_EXCEP" type="Boolean"/>
+      <Variable name="TIMEOUT" type="Boolean"/>
+      <Variable name="TRACE_ROLE" type="String"/>
+      <Variable name="UNIQUE_WORKFLOW" type="Integer"/>
+      <Variable name="VAR" type="String"/>
+      <Variable name="WORKFLOW_EXCEPTION" type="Object"/>
+      <Variable name="WORKFLOW_EXECUTION_STATUS" type="String"/>
+      <Variable name="WORKFLOW_NAME" type="String"/>
+      <Variable name="WORKFLOW_ORDER_ID" type="String"/>
+      <Variable name="WORKFLOW_STATE" type="String"/>
+      <Variable name="WORKFLOW_TYPE" type="String"/>
+      <Variable name="WORKFLOW_VERSION" type="Integer"/>
+      <Variable name="accountId" type="String"/>
+      <Variable name="action_name" type="String"/>
+      <Variable name="activation_description" type="String"/>
+      <Variable name="activation_major_code" type="Integer"/>
+      <Variable name="activation_minor_code" type="Integer"/>
+      <Variable name="anotherResult" type="String"/>
+      <Variable name="diagnostics" type="String"/>
+      <Variable name="input" type="String"/>
+      <Variable name="log_level" type="String"/>
+      <Variable name="log_manager" type="String"/>
+      <Variable name="major_code" type="String"/>
+      <Variable name="major_description" type="String"/>
+      <Variable name="message_data" type="String"/>
+      <Variable name="message_url" type="String"/>
+      <Variable name="minor_code" type="String"/>
+      <Variable name="minor_description" type="String"/>
+      <Variable name="module_name" type="String"/>
+      <Variable name="parent_job_id" type="Integer"/>
+      <Variable name="problem_name" type="String"/>
+      <Variable name="response_string" type="String"/>
+      <Variable name="services" type="Object"/>
+      <Variable name="skip_activation" type="Boolean"/>
+      <Variable name="sync" type="Boolean"/>
+      <Variable name="xmlList" type="String"/>
+   </Case-Packet>
+   <Initial-Case-Packet>
+      <Variable-Value name="FILE_URL_PREFIX" value="file:///"/>
+      <Variable-Value name="SOLUTION_NAME" value="TO_REPLACE_SOL_NAME"/>
+      <Variable-Value name="WORKFLOW_NAME" value="TO_REPLACE_WORKFLOW_NAME"/>
+      <Variable-Value name="WORKFLOW_VERSION" value="-1"/>
+      <Variable-Value name="diagnostics" value="looooooooooooooooog string"/>
+      <Variable-Value name="major_code" value="200"/>
+      <Variable-Value name="major_description" value="ok execution"/>
+      <Variable-Value name="response_string" value="&lt;Parameters&gt;&lt;Parameter&gt;&lt;attribute&gt;result&lt;/attribute&gt;&lt;value&gt;%inpu%&lt;/value&gt;&lt;type&gt;String&lt;/type&gt;&lt;/Parameter&gt;&lt;/Parameters&gt;"/>
+   </Initial-Case-Packet>
+   <Contract>
+      <Input mandatory="7">
+         <Var>parent_job_id</Var>
+         <Var>message_data</Var>
+         <Var>problem_name</Var>
+         <Var>action_name</Var>
+         <Var>log_manager</Var>
+         <Var>log_level</Var>
+         <Var>sync</Var>
+      </Input>
+      <Output>
+         <Var>major_code</Var>
+         <Var>minor_code</Var>
+         <Var>major_description</Var>
+         <Var>minor_description</Var>
+         <Var>diagnostics</Var>
+         <Var>response_string</Var>
+      </Output>
+   </Contract>
+   <Coordinates>
+      <Position>
+         <Name>GetInput</Name>
+         <X>530</X>
+         <Y>149</Y>
+         <Width>61</Width>
+         <Height>48</Height>
+      </Position>
+      <Position>
+         <Name>Log Clean Vector</Name>
+         <X>611</X>
+         <Y>149</Y>
+         <Width>107</Width>
+         <Height>48</Height>
+      </Position>
+      <Position>
+         <Name>VariableMapper</Name>
+         <X>739</X>
+         <Y>149</Y>
+         <Width>100</Width>
+         <Height>48</Height>
+      </Position>
+      <Arrows>
+         <Name>GetInput</Name>
+         <True-Arrow>
+            <Type>0</Type>
+            <DeltaX>0</DeltaX>
+            <DeltaY>0</DeltaY>
+         </True-Arrow>
+         <False-Arrow>
+            <Type>0</Type>
+            <DeltaX>0</DeltaX>
+            <DeltaY>0</DeltaY>
+         </False-Arrow>
+      </Arrows>
+      <Arrows>
+         <Name>Log Clean Vector</Name>
+         <True-Arrow>
+            <Type>0</Type>
+            <DeltaX>0</DeltaX>
+            <DeltaY>0</DeltaY>
+         </True-Arrow>
+         <False-Arrow>
+            <Type>0</Type>
+            <DeltaX>0</DeltaX>
+            <DeltaY>0</DeltaY>
+         </False-Arrow>
+      </Arrows>
+      <Arrows>
+         <Name>VariableMapper</Name>
+         <True-Arrow>
+            <Type>0</Type>
+            <DeltaX>0</DeltaX>
+            <DeltaY>0</DeltaY>
+         </True-Arrow>
+         <False-Arrow>
+            <Type>0</Type>
+            <DeltaX>0</DeltaX>
+            <DeltaY>0</DeltaY>
+         </False-Arrow>
+      </Arrows>
+   </Coordinates>
+</Workflow>

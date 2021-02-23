@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	
+	<class name="com.hpe.dataload.generator.orm.model.BlockDefTEntity" table="BLOCK_DEF_T" schema="TD_UDB_OWN">
+		<id name="blockName">
+			<column name="BLOCK_NAME" sql-type="varchar2(25)" length="25"/>
+		</id>
+		<property name="blockDesc">
+			<column name="BLOCK_DESC" sql-type="varchar2(250)" length="250" not-null="true"/>
+		</property>
+		<property name="recordInsertDate">
+			<column name="RECORD_INSERT_DATE" sql-type="timestamp(6)"/>
+		</property>
+		<property name="recordUpdateDate">
+			<column name="RECORD_UPDATE_DATE" sql-type="timestamp(6)"/>
+		</property>
+	</class>
+</hibernate-mapping>

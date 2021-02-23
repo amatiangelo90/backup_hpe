@@ -1,0 +1,5 @@
+com\hpe\automatization\test\CheckListGen.class
+com\hpe\automatization\test\testsuite\TestSuiteDataloadGen.class
+com\hpe\automatization\test\GenDataload_xmlPathInput.class
+com\hpe\automatization\test\Dataload_BonificaClassIndexes.class
+com\hpe\automatization\test\GenDataload_intExternal.class

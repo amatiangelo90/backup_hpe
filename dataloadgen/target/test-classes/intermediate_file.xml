@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<item>
+		<blocks_execution_group>
+			<block_execution_flow>
+				<block_name>RMD</block_name>
+				<match_cond>01</match_cond>
+			</block_execution_flow>
+			<block_execution_flow>
+				<block_id>3</block_id>
+				<block_name>EXIT</block_name>
+			</block_execution_flow>
+		</blocks_execution_group>
+	</item>
+	
+	<item>
+		<pattern_filter>
+			<technology>ULL-CONAN</technology>
+			<service>prova 162</service>
+			<is_unique_cpe>Y</is_unique_cpe>
+			<rg_type>IAD</rg_type>
+			<problem_type>D</problem_type>
+			<class_value>RES</class_value>
+			<segment>FASTWEB</segment>
+		</pattern_filter>
+		<blocks_execution_group>
+			<block_execution_flow>
+				<block_name>RMD</block_name>
+				<block_id>1</block_id>
+				<x_position>120</x_position>
+				<y_position>40</y_position>
+				<match_cond>00</match_cond>
+			</block_execution_flow>
+			<block_execution_flow>
+				<block_id>3</block_id>
+				<x_position>120</x_position>
+				<y_position>40</y_position>
+				<block_name>EXIT</block_name>
+			</block_execution_flow>
+		</blocks_execution_group>
+		
+		<pattern_output>
+			<intervention_required>0</intervention_required>
+			<problem_not_solved>0</problem_not_solved>
+			<no_problem_detected>0</no_problem_detected>
+			<massive_disservice>1</massive_disservice>
+			<problem_solved>0</problem_solved>
+		</pattern_output>
+	</item>
+</data-set>
