@@ -1,0 +1,1 @@
+Questo progetto conterrà la parte servizi e la parte grafica (GUI) per la gestione e la creazione di dataload complessi, attingendo ai file intermedi creati con l'editor grafico della UOC
