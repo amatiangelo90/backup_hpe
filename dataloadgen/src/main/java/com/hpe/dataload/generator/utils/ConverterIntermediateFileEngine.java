@@ -1,6 +1,6 @@
 package com.hpe.dataload.generator.utils;
 
-import com.hpe.ted.modelconverter.ConverterException;
+import com.hpe.ted.modelconverter.exception.ConverterException;
 import com.hpe.ted.modelconverter.SlimToFatModelConverter;
 import com.hpe.ted.modelconverter.fattoslim.FatToSlimModelConverter;
 

@@ -9,10 +9,9 @@ import com.hpe.dataload.generator.utils.Checkpoint;
 import com.hpe.dataload.generator.utils.ConverterIntermediateFileEngine;
 import com.hpe.dataload.generator.utils.EnumTedVersion;
 import com.hpe.dataload.generator.utils.NextGroupReminder;
-import com.hpe.ted.modelconverter.ConverterException;
+import com.hpe.ted.modelconverter.exception.ConverterException;
 import java.util.*;
 import java.util.logging.Logger;
-
 import static com.hpe.dataload.generator.engine.Builder.*;
 import static com.hpe.dataload.generator.utils.DataloadGenUtils.*;
 import static com.hpe.dataload.generator.utils.WorkflowTemplateUtils.buildAndWriteOnFileSystemWfFileForMClearVector;
@@ -553,8 +552,8 @@ public class GroupMergeEngine {
             return td;
 
 
-        } catch (ConverterException e) {
-            logger.severe("Error - Impossible to convert intermetiate file from Slim to Fat. Check Intermediate file structure. " + e);
+        } catch (Exception e) {
+            logger.severe("Error - Impossible to convert intermediate file from Slim to Fat. Check Intermediate file structure. " + e);
             throw new DataloadGeneratorException(e);
         }
     }

@@ -2,8 +2,8 @@ package com.hpe.automatization.test;
 
 import com.hpe.dataload.generator.exception.DataloadGeneratorException;
 import com.hpe.dataload.generator.utils.EnumTedVersion;
-import com.hpe.ted.modelconverter.ConverterException;
 import com.hpe.ted.modelconverter.SlimToFatModelConverter;
+import com.hpe.ted.modelconverter.exception.ConverterException;
 import org.junit.Test;
 
 import java.io.BufferedReader;

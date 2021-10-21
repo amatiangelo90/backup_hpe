@@ -12,7 +12,6 @@ import com.hpe.dataload.generator.orm.model.GroupTypeWrap;
 import com.hpe.dataload.generator.orm.model.TbsPatternSavedTEntity;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -86,9 +85,6 @@ public class DataloadGenServiceImpl implements DataloadGenServiceInterface {
             }
         }
     }
-
-
-
 
     @Override
     @POST

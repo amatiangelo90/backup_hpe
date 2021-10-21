@@ -3,7 +3,7 @@ package com.hpe.dataload.generator.model.intfilemodel.utils;
 import com.hpe.dataload.generator.exception.DataloadGeneratorException;
 import com.hpe.dataload.generator.intergration.DataloadGenerator;
 import com.hpe.dataload.generator.model.intfilemodel.DataSetItem;
-import com.hpe.ted.modelconverter.ConverterException;
+import com.hpe.ted.modelconverter.exception.ConverterException;
 import com.hpe.ted.modelconverter.SlimToFatModelConverter;
 import com.hpe.ted.modelconverter.fattoslim.FatToSlimModelConverter;
 

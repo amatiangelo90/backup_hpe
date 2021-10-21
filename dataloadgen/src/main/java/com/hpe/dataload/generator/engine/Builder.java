@@ -250,6 +250,7 @@ public class Builder {
 
             TD.ServiceTypes serviceTypes = new TD.ServiceTypes();
             List<ServiceTypeType> serviceTypeTypes = new ArrayList<>();
+
             ServiceTypeType serviceTypeType = new ServiceTypeType();
             serviceTypeType.setType(ANY);
             serviceTypeTypes.add(serviceTypeType);
@@ -702,15 +703,19 @@ public class Builder {
     public static void buildWorkflowTemplateTypeForNextGroup(String actionName, String stateIndexValue, String solutionName) throws DataloadGeneratorException {
 
         String workflowName = "HPETD_" + solutionName + "_" + actionName;
+
         System.out.println("Building workflow template for Action [" + actionName + "] - Solution [" + solutionName + "]. WorkflowName [" + workflowName + "]");
+
         WorkflowTemplateType workflowTemplateType = new WorkflowTemplateType();
         workflowTemplateType.setActionName(actionName);
         workflowTemplateType.setServiceType(ANY);
         workflowTemplateType.setWorkflow(workflowName);
         workflowTemplateType.setActionSolution(solutionName);
+
         List<WorkflowTemplateType> workflowTemplateTypesToAdd = new ArrayList<>();
         workflowTemplateTypesToAdd.add(workflowTemplateType);
         System.out.println("Saving workflow Template [" + buildStringXmlFromWorkflowTemplate(workflowTemplateType) + "]");
+
         List<WorkflowTemplateType> workflowsTemplateList = TbsOrmBuilder.getTbsOrmImplementation().getWorkflowsTemplateList();
         for(WorkflowTemplateType workflowTemplateType1 : workflowsTemplateList){
             if(actionName.equalsIgnoreCase(workflowTemplateType1.getActionName())){
@@ -912,27 +917,27 @@ public class Builder {
         return workflowTemplateTypeToAdd;
     }
 
-    private static TD.Actions getActionStructure(Set<String> actionNameList) throws DataloadGeneratorException {
-        TD.Actions actionTypeList = new TD.Actions();
-
-        Iterator<String> iterator = actionNameList.iterator();
-        List<ActionType> actionTypes = new ArrayList<>();
-        ActionType actionType;
-        while(iterator.hasNext()){
-            String currentActionName = iterator.next();
-            actionType = new ActionType();
-            actionType.setServiceValidation(true);
-            if(duplicatedBlockNameMap.containsKey(currentActionName)){
-                actionType.setLabel(duplicatedBlockNameMap.get(currentActionName));
-            }else {
-                actionType.setLabel(currentActionName);
-            }
-
-            actionTypes.add(actionType);
-        }
-        actionTypeList.getAction().addAll(actionTypes);
-        return actionTypeList;
-    }
+//    private static TD.Actions getActionStructure(Set<String> actionNameList) throws DataloadGeneratorException {
+//        TD.Actions actionTypeList = new TD.Actions();
+//
+//        Iterator<String> iterator = actionNameList.iterator();
+//        List<ActionType> actionTypes = new ArrayList<>();
+//        ActionType actionType;
+//        while(iterator.hasNext()){
+//            String currentActionName = iterator.next();
+//            actionType = new ActionType();
+//            actionType.setServiceValidation(true);
+//            if(duplicatedBlockNameMap.containsKey(currentActionName)){
+//                actionType.setLabel(duplicatedBlockNameMap.get(currentActionName));
+//            }else {
+//                actionType.setLabel(currentActionName);
+//            }
+//
+//            actionTypes.add(actionType);
+//        }
+//        actionTypeList.getAction().addAll(actionTypes);
+//        return actionTypeList;
+//    }
 
     private static GroupType.Indexes buildIndexesList(DataSetItem dataSetItemObject,
                                                       Map<String, Integer> indexesListOfStateItems) throws DataloadGeneratorException {

@@ -1,33 +1,51 @@
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\engine\Builder.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\ObjectFactory.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\ObjectFactory.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\ItemType.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\PatternOutputType.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\intergration\DataloadGeneratorImpl.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\utils\SmallToFatIntEngine.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\PatternFilterType.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\DataloadProperties.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\XmlSourceReader.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\TD.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\BlocksExecutionGroupType.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\intergration\DataloadGenerator.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\EnumTedVersion.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\model\TbsPatternSavedTEntity.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\intergration\DataloadGeneratorResult.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\DataloadGenUtils.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\impl\TbsOrmImpl.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\model\TbsPatternSavedTEntityPK.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\interf\TbsOrmInterface.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\intergration\DataloadGeneratorInput.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\BlockExecutionFlowType.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\DataSetItem.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\ActionRefType.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\WorkflowTemplateType.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\ws\DataloadGenServiceImpl.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\ServiceTypeType.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\HelpTextType.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\intergration\DataloadGeneratorConfiguration.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\ActionType.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\GroupType.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\ws\DataloadGenServiceInterface.java
-C:\Users\50050802\Desktop\Progetti\DATALOAD_DEV_BRANCH\ted\src\OSS_TED\artifacts\dataloadgen\src\main\java\com\hpe\dataload\generator\exception\DataloadGeneratorException.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\exception\DataloadGeneratorException.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\BlocksExecutionGroupType.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\model\BlockDefTEntity.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\DataloadProperties.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\TbsOrmInterface.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\intergration\DataloadGeneratorInput.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\configuration\ConfigurationClassLinux.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\intergration\DataloadGeneratorImpl.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\model\BlockDiagCodeMappingTEntity.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\TbsOrmImpl.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\configuration\ConfigurationClassWindows.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\model\BlockDiagCodeMappingTEntityPK.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\HelpTextType.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\model\ActionDetails.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\ConverterIntermediateFileEngine.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\TD.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\ws\cors\CORSFilter.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\BlockExecutionFlowType.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\model\PartialBlockDiagCodeMappingTEntity.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\PatternFilterType.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\ActionRefType.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\TbsOrmBuilder.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\WorkflowTemplateUtils.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\intergration\DataloadGenerator.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\configuration\ConfigurationClass.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\DataloadGenUtils.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\model\TbsPatternSavedTEntity.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\ws\DataloadGenServiceInterface.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\PatternOutputType.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\engine\Builder.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\XmlSourceReader.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\engine\GroupMergeEngine.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\ItemType.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\utils\ConverterIntermediateFile.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\Checkpoint.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\NextGroupReminder.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\intergration\DataloadGeneratorResult.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\intergration\DataloadGeneratorConfiguration.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\ActionType.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\ServiceTypeType.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\ObjectFactory.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\model\TbsPatternSavedTEntityPK.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\model\GroupTypeWrap.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\engine\GroupBuilder.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\utils\EnumTedVersion.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\orm\model\BlockDefEntityWrap.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\WorkflowTemplateType.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\ws\DataloadGenServiceImpl.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\ObjectFactory.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\intfilemodel\DataSetItem.java
+C:\Users\50050802\Desktop\Dataload Generator Project\backup_hpe\dataloadgen\src\main\java\com\hpe\dataload\generator\model\dataloadmodel\GroupType.java
